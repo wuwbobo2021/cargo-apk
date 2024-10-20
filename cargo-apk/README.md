@@ -181,7 +181,6 @@ uses_cleartext_traffic = true
 # See https://developer.android.com/guide/topics/manifest/meta-data-element
 #
 # Note: there can be several .meta_data entries.
-# Note: the `resource` attribute is currently not supported.
 [[package.metadata.android.application.meta_data]]
 name = "com.samsung.android.vr.application.mode"
 value = "vr_only"
@@ -225,7 +224,6 @@ always_retain_task_state = true
 # See https://developer.android.com/guide/topics/manifest/meta-data-element
 #
 # Note: there can be several .meta_data entries.
-# Note: the `resource` attribute is currently not supported.
 [[package.metadata.android.application.activity.meta_data]]
 name = "com.oculus.vr.focusaware"
 value = "true"
